@@ -40,6 +40,7 @@ var tankStoped = new Image();
 tankStoped.src = "img/tankstop.png";
 
 function keyDownHandler(e){
+	window.open('http://images.retinex.net/archive/image315965.png');
     if(e.keyCode == 39 || e.keyCode == 68) {
         rightPressed = true;
 
@@ -122,7 +123,6 @@ function gameLoop(){
 	player();
 	audios();
 	requestAnimationFrame(gameLoop);
-	window.open('http://images.retinex.net/archive/image315965.png')
 }
 
 gameLoop();
